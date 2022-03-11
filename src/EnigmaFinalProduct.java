@@ -147,7 +147,7 @@ public class EnigmaFinalProduct {
   }
 
   public void userInput() {
-    System.out.println("Do you want to encrypt or decrypt a message?");
+    System.out.print("Do you want to encrypt or decrypt a message? ");
     questionForUser = scanner.nextLine();
     if (questionForUser.equals("encrypt")) {
       encryption();
